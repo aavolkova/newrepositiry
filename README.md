@@ -1,0 +1,1 @@
+This program UserPrompt gets a response from the user about would he/she like to continue or not
