@@ -16,11 +16,12 @@ public class UserPrompt {
 		do
 		{
 			System.out.println("Would you like to comtinue?");
-			response = scan.nextLine();
+			response = scan.nextLine();  //Get response from the user
 			
-			if(response.equalsIgnoreCase("Y"))
+			if(response.equalsIgnoreCase(ourString))
 			{
-				System.out.println("okay");
+				//System.out.println("okay");
+				continue;
 			}
 			else if (response.equalsIgnoreCase("N"))
 				System.out.println("Quit the program");

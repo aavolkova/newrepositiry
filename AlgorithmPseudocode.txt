@@ -1,0 +1,33 @@
+Project: Shall we continue? Project name PromptUser
+
+
+
+Algorithm:
+
+Ask the user “Would you like to continue?”. 
+Get the user response. 
+Check the user response for 3 things:
+          - if he answers yes “Y” then continue, re-prompt the user
+          - if he answers no “N” then quit
+          - for all other responses display the error message and then re-prompt the user
+
+
+
+Pseudocode:
+
+Declare variables
+Create a scanner
+do
+        Prompt the user “Would you like to continue?”
+	Get the response
+	if response equals ignore case to “y”
+		continue
+	else if response equals ignore case to “n”
+		Display “Quit”
+	else 
+		Print "Error"
+		Get the response
+while response equals ignore case “y”
+End Do While
+End program
+
